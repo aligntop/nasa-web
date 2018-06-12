@@ -1,0 +1,14 @@
+version: '3.2'
+
+services:
+  ww-php-fpm:
+      build: .
+      container_name: ww-php-fpm
+      working_dir: /application
+      environment:
+        XDEBUG_CONFIG: remote_host=192.168.99.100
+        PHP_IDE_CONFIG: serverName=192.168.99.100
+      ports:
+        - 8081:8081
+      volumes:
+        - .:/application
