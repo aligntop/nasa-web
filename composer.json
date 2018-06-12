@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/aligntop/werkspot"
+            "url": "https://github.com/aligntop/nasa-plateau.git"
         }
     ],
     "minimum-stability": "dev",
