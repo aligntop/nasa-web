@@ -1,3 +1,3 @@
 index:
-    path: /
+    path: /{x}/{y}/{positionsStr}/{movementsStr}
     controller: App\Controller\Main::index
