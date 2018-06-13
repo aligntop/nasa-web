@@ -1,4 +1,4 @@
-# werkspot-web
+# nasa-web
 
 [![Build Status](https://travis-ci.com/aligntop/nasa-web.svg?branch=master)](https://travis-ci.com/aligntop/nasa-web)
 
@@ -9,7 +9,7 @@
 ### Install
 ```
 git clone https://github.com/aligntop/nasa-web.git
-cd werkspot
+cd nasa-web
 docker-compose up --build -d
 docker-compose exec php-fpm composer install
 ```
