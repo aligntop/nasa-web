@@ -11,6 +11,3 @@
 ###< symfony/web-server-bundle ###
 .DS_Store
 .idea
-###> phpunit/phpunit ###
-/phpunit.xml
-###< phpunit/phpunit ###
