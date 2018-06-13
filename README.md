@@ -12,6 +12,7 @@ git clone https://github.com/aligntop/nasa-web.git
 cd nasa-web
 docker-compose up --build -d
 docker-compose exec ww-php-fpm composer install
+docker-compose exec ww-php-fpm bin/console server:run 0.0.0.0:8081
 ```
 
 ### Web view
