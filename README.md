@@ -17,9 +17,8 @@ docker-compose exec ww-php-fpm bin/console server:run 0.0.0.0:8081
 
 ### Web view
 You can navigate to
-```
-http://0.0.0.0:8081/10/10/34N,22W/RRRR,LLLL
-```
+
+http://localhost:8081/10/10/3%204%20N,2%202%20W/RRRR,LLLL
 
 ### Run PHP Unit
 ```
